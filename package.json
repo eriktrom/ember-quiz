@@ -1,0 +1,40 @@
+{
+  "name": "em-quiz",
+  "version": "0.1.0",
+  "description": "Learn Ember through practice/repetition",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trombom/em-quiz.js"
+  },
+  "keywords": [
+    "ember"
+  ],
+  "author": "Erik Trom",
+  "license": "BSD",
+  "cloudfrontHost": "http://d2r0e4vnm570z9.cloudfront.net",
+  "s3BucketName": "em-quiz",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.9",
+    "grunt-contrib-clean": "~0.4.1",
+    "matchdep": "~0.1.2",
+    "grunt-ember-handlebars": "~0.6.0",
+    "grunt-es6-module-transpiler": "~0.3.0",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt-contrib-qunit": "~0.2.2",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-md5": "~0.1.11",
+    "grunt-s3": "~0.2.0-alpha.2",
+    "grunt-karma": "~0.4.5",
+    "grunt-sass": "~0.6.0"
+  }
+}
