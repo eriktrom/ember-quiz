@@ -11,7 +11,8 @@ module "EmQuiz",
   setup: -> Ember.run(EmQuiz, EmQuiz.advanceReadiness)
   teardown: -> EmQuiz.reset()
 
-# test "the homepage works", ->
-#   expect 1
-#   visit('/')
-#   .then ->
+test "the homepage works", ->
+  expect 1
+  visit('/')
+  .then ->
+    equal find("h1").text(), "Hello World"

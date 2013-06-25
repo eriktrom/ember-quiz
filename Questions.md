@@ -1,0 +1,4 @@
+- You just started an app
+  - Integration test
+  - Route
+  - Template
