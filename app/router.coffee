@@ -3,4 +3,6 @@ Router = Ember.Router.extend()
 
 Router.map ->
 
+Router.router.log = Ember.Logger.debug
+
 export = Router
