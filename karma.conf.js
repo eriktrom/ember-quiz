@@ -8,8 +8,8 @@ basePath = '';
 
 // list of files / patterns to load in the browser
 files = [
-  QUNIT,
-  QUNIT_ADAPTER,
+  MOCHA,
+  MOCHA_ADAPTER,
 
   'tmp/public/vendor/loader.js',
   'tmp/public/vendor/jquery.js',

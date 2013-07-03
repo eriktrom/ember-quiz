@@ -22,7 +22,7 @@ module.exports = (grunt) ->
     concat: config('concat')
     connect: config('connect')
     watch: config('watch')
-    qunit: config('qunit')
+    mocha: config('mocha')
     karma: config('karma')
     # deployment
     uglify: config('uglify')
@@ -57,7 +57,7 @@ module.exports = (grunt) ->
   grunt.registerTask 'test', [
     'buildDev'
     'connect'
-    'qunit'
+    'mocha'
   ]
 
   # production/deployment tasks
